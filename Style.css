@@ -1,0 +1,55 @@
+/* Element Selector */
+body {
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+/* Class Selector */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #ffc0cb;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+/* ID Selector */
+#main-title {
+    color: #ff6600;
+}
+
+/* Attribute Selector */
+img[src="cake.jpg"] {
+    width: 100%;
+    height: auto;
+}
+
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Float Property */
+.Couts {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.cake {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Positioning */
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.content {
+    overflow: hidden; /* Clearing floats */
+}
